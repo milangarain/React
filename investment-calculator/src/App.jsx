@@ -21,11 +21,13 @@ function App() {
     });
   } 
 
+  let isValidInput = userInput.duration > 0;
   return (
     <>
       <Header />
       <InvestmentInput investmentInput={userInput} onChange={handleChange}/>
-      <InvestmentResult investmentInput={userInput}/>
+      {isValidInput && <InvestmentResult investmentInput={userInput}/>}
+      {!isValidInput && <p>Please enter a valid duration.</p>}
     </>
     
   )
