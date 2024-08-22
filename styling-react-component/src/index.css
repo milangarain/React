@@ -40,12 +40,12 @@ button:focus {
   color: white;
 }
 
-.controls {
+/* .controls {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   margin-bottom: 1.5rem;
-}
+} 
 
 .controls label {
   display: block;
@@ -66,17 +66,17 @@ button:focus {
   border: 1px solid transparent;
   border-radius: 0.25rem;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-}
+} */
 
-label.invalid {
+/* label.invalid {
   color: #f87171;
-}
+} */
 
-input.invalid {
+/* input.invalid {
   color: #ef4444;
   border-color: #f73f3f;
   background-color: #fed2d2;
-}
+} */
 
 .actions {
   display: flex;
@@ -84,7 +84,7 @@ input.invalid {
   gap: 1rem;
 }
 
-.button {
+/* .button {
   padding: 1rem 2rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -97,7 +97,7 @@ input.invalid {
 
 .button:hover {
   background-color: #f0920e;
-}
+} */
 
 .text-button {
   color: #f0b322;
