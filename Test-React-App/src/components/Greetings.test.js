@@ -42,4 +42,19 @@ describe('Greeting component', () => {
 		const learnJestElement = screen.queryByText('learn jest', {exact: false});
 		expect(learnJestElement).not.toBeInTheDocument();
 	});
+
+	//test connected component
+	test('renders "Welcome to react Testing" text', () => {
+		//3 A's -- Arrange, Act, Assert
+
+		//Arrange
+		render(<Greetings />);
+
+		//Act
+		//Do nething here
+
+		//Assert
+		const learnJestElement = screen.getByText('Welcome to react Testing', {exact: false});
+		expect(learnJestElement).toBeInTheDocument();
+	});
 })
